@@ -1,0 +1,55 @@
+{
+  "numFailedTestSuites": 1,
+  "numFailedTests": 1,
+  "numPassedTestSuites": 0,
+  "numPassedTests": 0,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 0,
+  "numRuntimeErrorTestSuites": 0,
+  "numTodoTests": 0,
+  "numTotalTestSuites": 1,
+  "numTotalTests": 1,
+  "openHandles": [],
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1663790399846,
+  "success": false,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["App tests"],
+          "duration": 29,
+          "failureMessages": [
+            "TestingLibraryElementError: Unable to find an element with the text: /Hello world! I am using React/i. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<h1>\u001b[39m\n      \u001b[0mworld! I am using React\u001b[0m\n    \u001b[36m</h1>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m\n    at Object.getElementError (/home/bivas/Desktop/react-webpack-jest/node_modules/@testing-library/dom/dist/config.js:40:19)\n    at /home/bivas/Desktop/react-webpack-jest/node_modules/@testing-library/dom/dist/query-helpers.js:90:38\n    at /home/bivas/Desktop/react-webpack-jest/node_modules/@testing-library/dom/dist/query-helpers.js:62:17\n    at /home/bivas/Desktop/react-webpack-jest/node_modules/@testing-library/dom/dist/query-helpers.js:111:19\n    at Object.getByText (/home/bivas/Desktop/react-webpack-jest/App.test.js:8:32)\n    at Promise.then.completed (/home/bivas/Desktop/react-webpack-jest/node_modules/jest-circus/build/utils.js:333:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/home/bivas/Desktop/react-webpack-jest/node_modules/jest-circus/build/utils.js:259:10)\n    at _callCircusTest (/home/bivas/Desktop/react-webpack-jest/node_modules/jest-circus/build/run.js:277:40)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at _runTest (/home/bivas/Desktop/react-webpack-jest/node_modules/jest-circus/build/run.js:209:3)\n    at _runTestsForDescribeBlock (/home/bivas/Desktop/react-webpack-jest/node_modules/jest-circus/build/run.js:97:9)\n    at _runTestsForDescribeBlock (/home/bivas/Desktop/react-webpack-jest/node_modules/jest-circus/build/run.js:91:9)\n    at run (/home/bivas/Desktop/react-webpack-jest/node_modules/jest-circus/build/run.js:31:3)\n    at runAndTransformResultsToJestFormat (/home/bivas/Desktop/react-webpack-jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:136:21)\n    at jestAdapter (/home/bivas/Desktop/react-webpack-jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:92:19)\n    at runTestInternal (/home/bivas/Desktop/react-webpack-jest/node_modules/jest-runner/build/runTest.js:407:16)\n    at runTest (/home/bivas/Desktop/react-webpack-jest/node_modules/jest-runner/build/runTest.js:491:34)"
+          ],
+          "fullName": "App tests should contains the heading 1",
+          "location": null,
+          "status": "failed",
+          "title": "should contains the heading 1"
+        }
+      ],
+      "endTime": 1663790401172,
+      "message": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mApp tests › should contains the heading 1\u001b[39m\u001b[22m\n\n    TestingLibraryElementError: Unable to find an element with the text: /Hello world! I am using React/i. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.\n\n    Ignored nodes: comments, script, style\n    \u001b[36m<body>\u001b[39m\n      \u001b[36m<div>\u001b[39m\n        \u001b[36m<h1>\u001b[39m\n          \u001b[0mworld! I am using React\u001b[0m\n        \u001b[36m</h1>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n    \u001b[36m</body>\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m  6 |\u001b[39m     it(\u001b[32m'should contains the heading 1'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m  7 |\u001b[39m     render(\u001b[33m<\u001b[39m\u001b[33mApp\u001b[39m \u001b[33m/\u001b[39m\u001b[33m>\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m  8 |\u001b[39m         \u001b[36mconst\u001b[39m heading \u001b[33m=\u001b[39m screen\u001b[33m.\u001b[39mgetByText(\u001b[35m/Hello world! I am using React/i\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m  9 |\u001b[39m         expect(heading)\u001b[33m.\u001b[39mtoBeInTheDocument()\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 10 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 11 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.getElementError (\u001b[22m\u001b[2mnode_modules/@testing-library/dom/dist/config.js\u001b[2m:40:19)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.getByText (\u001b[22m\u001b[2m\u001b[0m\u001b[36mApp.test.js\u001b[39m\u001b[0m\u001b[2m:8:32)\u001b[22m\u001b[2m\u001b[22m\n",
+      "name": "/home/bivas/Desktop/react-webpack-jest/App.test.js",
+      "startTime": 1663790400269,
+      "status": "failed",
+      "summary": ""
+    }
+  ],
+  "wasInterrupted": false
+}
